@@ -4,6 +4,9 @@ Date   : 6 février 2025
 Sujet  : Classe Ouvrage
 */
 
+// Importer classes
+import { Film } from "./Film.js";
+import { Livre } from "./Livre.js";
 // Tableau d'ouvrages (base de données initiale OBLIGATIORE)
 const _ouvrages = [
     new Livre("Les Misérables", 1862, "Roman", true, "Victor Hugo", 2598),
@@ -21,3 +24,4 @@ const _ouvrages = [
     new Livre("Gatsby le Magnifique", 1925, "Roman", true, "F. Scott Fitzgerald", 180),
     new Film("Star Wars : Episode IV - Un nouvel espoir", 1977, "Science-fiction", false, "George Lucas", 121),
 ];
+
